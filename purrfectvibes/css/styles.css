@@ -5,30 +5,59 @@ body {
     line-height: 1.4em;
 }
 h1 {
-    font-size: 32px;
+    font-size: 21px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 h2 {
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
 }
 h3 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .container {
-    width: 1200px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1200px;
     padding: 20px;
     margin: auto;
 }
 a {
     color: #b3679b;  
+}
+header {
+    position: sticky;
+    background-color: aliceblue;
+    height: 110px;
+    z-index: 999;
+    display: flow-root;
+}
+nav {
+    float: right;
+}
+header img {
+    width: 250px;
+    padding-left: 100px;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin: 20px;
+}
+nav a {
+    color: black;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #e6a563;
 }
