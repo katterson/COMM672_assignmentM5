@@ -8,43 +8,49 @@ h1 {
     font-size: 21px;
     font-weight: bold;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
 }
 h2 {
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 h3 {
     font-size: 15px;
     font-weight: bold;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .container {
-    width: 100%;
     max-width: 1200px;
+    width: 100%;
     padding: 20px;
     margin: auto;
 }
 a {
     color: #b3679b;  
 }
+ .clear {
+    clear: both;
+ }
 header {
-    position: sticky;
-    background-color: aliceblue;
     height: 110px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: azure;
+    position: sticky;
     z-index: 999;
-    display: flow-root;
+    top: 0;
 }
 nav {
     float: right;
 }
 header img {
     width: 250px;
-    padding-left: 100px;
+    /* padding-left: 50px; */
     float: left;
 }
 nav ul {
@@ -57,7 +63,36 @@ nav li {
 nav a {
     color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 nav a:hover {
     color: #e6a563;
+}
+.hero {
+    background-color: #ffcf83;
+    height: 300px;
+}
+.button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #222e50;
+    border: solid 1px #222e50;
+    border-radius: 10px;
+    padding: 10px;
+}
+.hero-text a:hover {
+    color: #222e50;
+    background-color: transparent;
+    border: solid 2px #222e50;
+}
+.hero-text {
+    width: 600px;
+    margin-top: auto;
+    padding-left: 60px;
+    float: left;
+}
+.hero img{
+    width: 250px;
+    padding-right: 60px;
+    float: right;
 }
