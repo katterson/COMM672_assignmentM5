@@ -104,3 +104,23 @@ nav a:hover {
     text-align: center;
     background: white;
 }
+.testimonials {
+    color: #fff;
+    background-color: #222e50;
+    text-align: center;
+}
+.testimonial-block {
+    color: #000;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    background-color: white;
+}
+.team-block {
+    width: 210px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
